@@ -1,12 +1,6 @@
 import java.util.Scanner;
 
-/**
- * Created with IntelliJ IDEA.
- * User: coob
- * Date: 29.06.13
- * Time: 1:21
- * To change this template use File | Settings | File Templates.
- */
+
 public class lexf {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
