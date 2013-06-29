@@ -11,14 +11,12 @@ import java.util.Vector;
  */
 public class tree {
 
-    static int size = 1000 + 10;
-    static int[] adj;
-    static boolean[] usd = new boolean[size];
-
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         boolean[][] adj= new boolean[n+1][n+1];
+        boolean[] usd = new boolean[n+1];
+
         while(sc.hasNextInt()){
             int tmp1 = sc.nextInt();
             int tmp2 = sc.nextInt();
